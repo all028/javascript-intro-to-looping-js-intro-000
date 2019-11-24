@@ -1,7 +1,13 @@
 function forLoop(arr){
-  for (int i=0; i <=24; i++){
-       arr[x];
+  var x = "";
+  for (let i=0; i <=24; i++){
+    x.concat(`"I am ${i} strange loops."`);    
+
+    if (i == 24){
+      return x;      
+    }
   }
+  
 
 }
 
