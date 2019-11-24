@@ -1,10 +1,12 @@
 function forLoop(arr){
   var x = "";
   for (let i=0; i <25; i++){
-    x.concat(`"I am ${i} strange loops."`);
+    
 
-    if (i === 24){
-      return x;
+    if (i === 1){
+      x = "I am 1 strange loop";
+    }else{
+      x.concat(`"I am ${i} strange loops."`);
     }
   }
 
