@@ -1,6 +1,6 @@
 function forLoop(arr){
   var x = "";
-  for (let i=0; i <=24; i++){
+  for (let i=0; i <25; i++){
     x.concat(`"I am ${i} strange loops."`);
 
     if (i === 24){
