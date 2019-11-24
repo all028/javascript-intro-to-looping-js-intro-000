@@ -1,7 +1,7 @@
 function forLoop(arr){
-  //for (int i=0; i <=24; i++){
-//     arr[x];
-//  }
+  for (int i=0; i <=24; i++){
+       arr[x];
+  }
 
 }
 
